@@ -8,4 +8,19 @@ output: html_notebook
 data(iris)
 str(iris)
 ```
-
+```{r}
+names(iris)
+```
+```{r}
+summary(iris)
+```
+```{r}
+pairs(iris)
+```
+```{r}
+plot(iris, col=iris$Species)
+```
+```{r}
+plot(iris, col=iris$Species)
+legend(7,4.3,unique(iris$Species),col=1:length(iris$Species),pch=1)
+```
