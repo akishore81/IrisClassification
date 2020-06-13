@@ -1,8 +1,6 @@
 ---
-title: "R Notebook"
-output:
-  html_document: 
-    keep_md: yes
+title: "Iris Classification"
+output: github_document
 ---
 
 
